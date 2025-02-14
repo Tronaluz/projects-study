@@ -1,35 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>algon novo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TI Notícias</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="supbarra">
-    <h1>ALISTAMENTO MILITAR</h1>
-    <div class="links"> 
-      <a href="#section1">Seção1</a>
-      <a href="#section2">Seção2</a>
-      <a href="#section3">Seção3</a>
-    </div>
-  </div>
-  
-  <section id="section1">
-    <h2>Seção1</h2>
-    <p>Conteudo da seção1</p>
-  </section>
-  
-  <section id="section2">
-    <h2>Seção2</h2>
-    <p>Conteudo da seção2</p>
-  </section>
-  
-  <section id="section3">
-    <h2>Seção3</h2>
-    <p>Conteudo da seção3</p>
-  </section>
-  
+    <header>
+        <div class="logo">
+            <h1>TI-NOTÍCIAS</h1>
+        </div>
+        <nav>
+            <button id="dark-mode-toggle">🌙 Modo Escuro</button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Atualizações do Dia</a></li>
+                <li><a href="#">Escândalos da Tecnologia</a></li>
+                <li><a href="#">Novidades de Hardware</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="banner-content">
+            <h2>As últimas novidades do mundo da tecnologia</h2>
+            <p>Fique por dentro das atualizações, lançamentos e polêmicas.</p>
+        </div>
+    </section>
+    
+
+    <main>
+        <section class="noticias">
+            <h2>Atualizações do Dia</h2>
+            <p>Últimas novidades sobre Tecnologia...</p>
+        </section>
+
+        <section class="noticias">
+            <h2>Escândalos da Tecnologia</h2>
+            <p>As polêmicas mais quentes do mundo da Tecnologia...</p>
+        </section>
+
+        <section class="noticias">
+            <h2>Novidades de Hardware</h2>
+            <p>Novos lançamentos e inovações em Hardware...</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
